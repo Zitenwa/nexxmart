@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
-import { db } from "../../lib/firebase";
+import { db } from "../firebase";
 import { collection, addDoc, getDocs } from "firebase/firestore";
 
 function TestPage() {
